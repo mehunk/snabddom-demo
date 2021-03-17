@@ -1,0 +1,11 @@
+.title {
+  color: green;
+}
+
+.content {
+  color: aqua;
+}
+
+#container {
+  border: cadetblue solid 1px ;
+}
