@@ -8,5 +8,10 @@
   },
   "scripts": {
     "dev": "parcel index.html"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "snabbdom-pragma": "^2.8.0"
   }
 }
