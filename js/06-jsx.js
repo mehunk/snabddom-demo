@@ -1,7 +1,4 @@
-import { init } from 'snabbdom/build/package/init'
-import { classModule } from 'snabbdom/build/package/modules/class'
-import { attributesModule } from 'snabbdom/build/package/modules/attributes'
-import Snabbdom from 'snabbdom-pragma'
+import { init, classModule, attributesModule, jsx } from 'snabbdom'
 
 const patch = init([
   classModule,

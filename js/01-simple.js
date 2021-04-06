@@ -1,5 +1,4 @@
-import { init } from 'snabbdom/build/package/init'
-import { h } from 'snabbdom/build/package/h'
+import { init, h } from 'snabbdom'
 
 // 使用一个空的模块集初始化，得到一个 patch 方法
 const patch = init([])

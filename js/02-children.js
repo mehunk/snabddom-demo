@@ -1,5 +1,4 @@
-import { init } from 'snabbdom/build/package/init'
-import { h } from 'snabbdom/build/package/h'
+import { init, h } from 'snabbdom'
 
 const patch = init([])
 

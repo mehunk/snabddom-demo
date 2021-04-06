@@ -1,8 +1,10 @@
 {
   "plugins": [
-    "syntax-jsx",
-    ["transform-react-jsx", {
-      "pragma": "Snabbdom.createElement"
-    }]
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "jsx"
+      }
+    ]
   ]
 }

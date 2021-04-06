@@ -1,6 +1,4 @@
-import { init } from 'snabbdom/build/package/init'
-import { h } from 'snabbdom/build/package/h'
-import { classModule } from 'snabbdom/build/package/modules/class'
+import { init, h, classModule } from 'snabbdom'
 
 const patch = init([
   classModule // 一定要在初始化的时候将类模块传进来

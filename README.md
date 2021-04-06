@@ -1,5 +1,15 @@
 # README
 
+本项目是关于 Snabbdom 的简单使用 Demo。
+
+## 运行前准备
+
+安装 Parcel
+
+```shell
+$ yarn global add parcel-bundler
+```
+
 ## 参考资料
 
 - [GitHub - Snabbdom](https://github.com/snabbdom/snabbdom)
